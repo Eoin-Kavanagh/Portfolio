@@ -148,6 +148,24 @@ h6 { font-size: 16px;}
 
 .right-column{
   grid-area: right-column;
+  padding: 10px;
+  padding-right: 30px;
+  text-align: justify;
+}
+
+#tagline{
+
+}
+
+#skills-heading{
+  margin:0;
+}
+
+
+
+#skills-list li{
+  list-style-type:  disc;
+
 }
 
 @media screen and (max-width: 1200px) {
