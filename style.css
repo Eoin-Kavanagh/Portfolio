@@ -55,6 +55,7 @@ h6 { font-size: 16px;}
 .main-container{
   width: 1200px;
   margin: 0 auto;
+  padding-bottom: 20px;
 }
 
 .greeting-wrapper{
@@ -155,19 +156,36 @@ h6 { font-size: 16px;}
   text-align: justify;
 }
 
-#tagline{
-
-}
-
 #skills-heading{
   margin:0;
 }
 
-
-
 #skills-list li{
   list-style-type:  disc;
+}
 
+.about-wrapper{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+  justify-content: space-evenly;
+}
+
+.social-links{
+
+}
+
+#GitHub-logo{
+  display: block;
+  margin: auto;
+  width: 50%;
+
+}
+
+#LinkedIn-logo{
+  display: block;
+  margin: 0 auto;
+  width: 40%;
+  object-fit: cover;
 }
 
 @media screen and (max-width: 1200px) {
